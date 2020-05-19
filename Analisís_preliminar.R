@@ -26,7 +26,7 @@ write.table(Lista, # aquí solo guarde el primer intento
 Lista_csv = read.csv("Lista_Dep.csv")
 View(Lista_csv)
 
-        register_google(key = "AIzaSyD1X3sw4Lw0WDLXZDzSdYYkxDanvlVgvv0")
+        register_google(key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 data_map = get_map(location = "Colombia", # la función get_map me permite tomar el mapa
                   zoom = 6 # nivel de zoom
